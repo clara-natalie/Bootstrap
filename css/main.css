@@ -1,0 +1,368 @@
+.navbar {
+  padding:0rem !important;
+}
+
+.nav-header-top a {
+	font-size: 12px;
+}
+
+.nav-header-bottom a {
+	color: #343a40;
+	font-size: 16px;
+}
+
+ .nav-header-bottom li {
+	padding: .5rem;
+	border-right: 1px solid #e5e5e5;
+}
+
+.navbar-nav li {
+	z-index: 2;
+}
+
+.navbar-nav li a:hover {
+	opacity: 0.7;
+}
+
+.nav-header-top li a:hover {
+	opacity: 0.7 !important;
+	color: rgba(255,255,255,.7);
+}
+
+ .img-logo-text {
+	left: 0px;
+	z-index: 1;
+ }
+ 
+ .text-logo {
+	 display: none;
+ }
+ 
+ .img-logo {
+	width:125px;
+ }
+ 
+.spacer-nav {
+	width: 125px;
+ }
+ 
+.dropdown .dropdown-menu {
+  border-radius:0;
+  background: #343a40;
+  margin: 0px;
+ }
+ 
+.dropdown .dropdown-item:hover {
+	color: #343a40 !important;
+ }
+ 
+ .nav-header-bottom {
+	 justify-content: center;
+ }
+ 
+.cart-and-search-mo {
+	float: right;
+ }
+ 
+/*content*/
+.carousel-indicators {
+	align-items: center;
+}
+
+.carousel-indicators li {
+	width: 5px !important;
+	height: 5px !important;
+	border-radius: 50%;
+}
+
+.carousel-indicators .active {
+	width: 8px !important;
+	height: 8px !important;
+}
+
+.carousel-item {
+  height: 91vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top .line {
+    border-bottom: 3px solid #ff6600;
+    width: 70px;
+    margin: auto;
+}
+
+.top img {
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
+
+.text-faded {
+	color: rgba(255,255,255,.7);
+}
+
+.carousel-button-container a {
+	font-size: 12px;
+}
+
+.carousel-button-container .btn {
+	border-radius: 0 !important;
+	padding: 1rem 2rem
+}
+
+.banner-container {
+	margin: 5%;
+    border: 4px solid #ffffff;
+    height: 60%;
+	z-index: 1;
+	margin-top: 10%;
+}
+
+.banner-left {
+	background: url("../img/banner-1-1.png") ;
+}
+	
+.banner-right {
+	background: url("../img/banner-2-2.png");
+}
+
+.banner-left,
+.banner-right {
+	background-repeat: no-repeat;  
+    background-position: bottom right;
+	height: 35vh;
+	background-size:cover;
+}
+
+.banner-left span,
+.banner-right span {
+	position: absolute;
+    display: block;
+    top: -15px;
+    left: -6px;
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+.banner-left span {
+	background: #ff6600;
+    width: 25%;
+}
+
+.banner-right span {
+	background: linear-gradient(110deg, rgb(195, 195, 195) 0%, rgb(211, 211, 211) 100%);
+	width: 37%;
+}
+
+.banner-container div {
+	font-size: 12px;
+	bottom: -30%;
+}
+
+/*grid*/
+.col-md-6 .row {
+	height: 50%;
+}
+
+.content-big {
+	height: 50%;
+	padding: 0px;
+}
+
+.content-big img,
+.content-small img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content-small {
+	height: 100%;
+	padding: 0;
+	background: white;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 1.5vh solid transparent;
+	border-left: 1.5vh solid #ffffff;
+	border-bottom: 1.5vh solid transparent;
+	top: 45%;
+	left: 0;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 1.5vh solid transparent;
+	border-right: 1.5vh solid #ffffff;
+	border-bottom: 1.5vh solid transparent;
+	top: 45%;
+	right: 0;
+}
+
+/*give blur effect*/
+.banner-left .blur {
+	background: url(../img/banner-1-1.png) no-repeat bottom right;	
+    background-size: cover;	
+    background-position: bottom 0px right 0px;
+}
+
+.banner-right .blur {
+	background: url(../img/banner-2-2.png) no-repeat bottom right;	
+    background-size: cover;	
+    background-position: bottom 0px right 0px;
+}
+
+.blur {
+    filter: blur(5px);
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.widget {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+	-webkit-clip-path: polygon(92% 0, 100% 0, 100% 100%, 0 100%, 0 75%, 92% 75%);
+	clip-path: polygon(92% 0, 100% 0, 100% 100%, 0 100%, 0 75%, 92% 75%);
+}
+/*end effect*/
+
+.btn-outline-secondary {
+	border-radius: 0 !important;
+    padding: 1rem 2rem;
+	font-size: 12px;
+}
+
+.btn-width {
+	width: 190px;
+}
+
+
+/* Medium devices (tablets, 768px and up) 
+The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+	border-radius:0;
+	}
+	
+.cart-and-search {
+	display: flex;
+}
+
+.navbar-toggler-left {
+	display: none;
+}
+
+.carousel-logo-container,
+.carousel-button-container {
+	margin-top: 5rem;
+}
+
+.carousel-text-container {
+	margin-top: 10rem;
+}
+
+ 
+.header h1 {
+	font-size: 4rem;
+}
+
+.banner-left,
+.banner-right {
+	height: 35vh;
+}
+
+.banner-content-container {
+	top: -35px !important;
+}
+
+.carousel-indicators {
+	bottom: 100px !important;
+}
+
+}
+
+/*for very large screen*/
+@media (min-width: 992px) {
+	.text-logo {
+	 top: .5rem;
+	 font-size: 12px;
+	 left: 125px;
+	 margin-left: 1.7rem;
+	 display: block;
+ }
+
+ 
+ .nav-header-bottom li {
+	padding: .5rem 1.2rem;
+	border-right: 1px solid #e5e5e5;
+}
+ 
+.cart-and-search {
+	display: flex;
+	position: absolute;
+	right: 0px;
+	border-left: 1px solid #e5e5e5;
+	z-index: 1;
+}
+
+.banner-left span,
+.banner-right span {
+	font-size: 2.5rem;
+}
+
+}
+
+/*for mobile*/
+@media (max-width: 767px) {
+.img-logo-text {
+	display: none;
+}
+	
+.nav-header-bottom,
+.nav-header-top {
+	margin-left: 0px;
+}
+
+.nav-header-top li {
+	padding: .5rem 1.2rem;
+}
+
+.nav-header-bottom li {
+	border-right: none;
+	padding: .5rem 1.2rem;
+}
+
+.cart-and-search {
+	display: none;
+}
+
+.carousel-logo-container,
+.carousel-button-container {
+	margin-top: 3rem;
+}
+
+.carousel-text-container {
+	margin-top: 5rem;
+}
+
+
+
+
+}
