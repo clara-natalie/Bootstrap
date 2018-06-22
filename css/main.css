@@ -251,6 +251,65 @@
 	width: 190px;
 }
 
+/* footer */
+footer {
+	background-color: #c4c4c4;
+}
+
+footer img {
+	width: 100%;
+	object-fit: contain;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container {
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.logo-footer div {
+	height: 5rem;
+}
+
+.x-mark {
+	left: 16%;
+    top: 40%;
+	color: #707070;
+}
+
+.x-mark i {
+	font-size: 12px;
+}
+
+.x-mark:nth-child(2) {
+	left: 33%;
+    top: 40%;
+	color: #707070;
+}
+
+.x-mark:nth-child(3) {
+	left: 50%;
+    top: 40%;
+	color: #707070;
+}
+
+.x-mark:nth-child(4) {
+	left: 67%;
+    top: 40%;
+	color: #707070;
+}
+
+.x-mark:nth-child(5) {
+	left: 84%;
+    top: 40%;
+	color: #707070;
+}
+
+
 
 /* Medium devices (tablets, 768px and up) 
 The navbar toggle appears at this breakpoint */
@@ -362,7 +421,9 @@ The navbar toggle appears at this breakpoint */
 	margin-top: 5rem;
 }
 
-
+.x-mark {
+	display: none;
+}
 
 
 }
