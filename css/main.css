@@ -29,13 +29,6 @@
 	color: rgba(255,255,255,.7);
 }
 
-.navbar-collapse {
-	height: 400px;
-	max-height: 400px;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling:touch; // mobile safari
-}
-
  .img-logo-text {
 	left: 0px;
 	z-index: 1;
@@ -349,6 +342,23 @@ footer .nav-link:hover {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff');
 }
 
+.go-top {
+background: rgba(255,102,0,1);
+background: -moz-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(235,94,0,1) 46%, rgba(255,102,0,1) 46%, rgba(235,94,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,102,0,1)), color-stop(46%, rgba(235,94,0,1)), color-stop(46%, rgba(255,102,0,1)), color-stop(100%, rgba(235,94,0,1)));
+background: -webkit-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(235,94,0,1) 46%, rgba(255,102,0,1) 46%, rgba(235,94,0,1) 100%);
+background: -o-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(235,94,0,1) 46%, rgba(255,102,0,1) 46%, rgba(235,94,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(235,94,0,1) 46%, rgba(255,102,0,1) 46%, rgba(235,94,0,1) 100%);
+background: linear-gradient(to bottom, rgba(255,102,0,1) 0%, rgba(235,94,0,1) 46%, rgba(255,102,0,1) 46%, rgba(235,94,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#eb5e00', GradientType=0 );
+width: 50px;
+height: 50px;
+border: none;
+-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+position: absolute;
+}
+
 /* Medium devices (tablets, 768px and up) 
 The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -477,6 +487,13 @@ footer .logo {
 
 footer li {
 	display: block !important;
+}
+
+.navbar-collapse {
+	height: 400px;
+	max-height: 400px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling:touch; // mobile safari
 }
 
 }
