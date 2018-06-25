@@ -81,7 +81,7 @@
 }
 
 .carousel-item {
-  height: 91vh;
+  height: 54rem;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -134,7 +134,7 @@
 .banner-right {
 	background-repeat: no-repeat;  
     background-position: bottom right;
-	height: 35vh;
+	height: 15rem;
 	background-size:cover;
 }
 
@@ -256,7 +256,7 @@ footer {
 	background-color: #c4c4c4;
 }
 
-footer img {
+footer .img-container img {
 	width: 100%;
 	object-fit: contain;
 	position: relative;
@@ -309,7 +309,38 @@ footer img {
 	color: #707070;
 }
 
+footer .nav-link {
+	font-size: 12px;
+}
 
+footer .nav-link:hover {
+	color: white;
+	border-bottom: 1px solid #ff6600;
+}
+
+.nav-item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.social-media {
+	color: #ffffffb3;
+	border-radius: 50%;
+	border: 1px solid #ffffffb3;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
+
+.social-media:hover {
+	color: white;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff');
+}
 
 /* Medium devices (tablets, 768px and up) 
 The navbar toggle appears at this breakpoint */
@@ -322,6 +353,10 @@ The navbar toggle appears at this breakpoint */
 	
 .cart-and-search {
 	display: flex;
+}
+
+.header-img-logo {
+	display: none;
 }
 
 .navbar-toggler-left {
@@ -344,7 +379,7 @@ The navbar toggle appears at this breakpoint */
 
 .banner-left,
 .banner-right {
-	height: 35vh;
+	height: 20rem;
 }
 
 .banner-content-container {
@@ -353,6 +388,10 @@ The navbar toggle appears at this breakpoint */
 
 .carousel-indicators {
 	bottom: 100px !important;
+}
+
+footer .logo {
+	display: block;
 }
 
 }
@@ -390,6 +429,10 @@ The navbar toggle appears at this breakpoint */
 
 /*for mobile*/
 @media (max-width: 767px) {
+.carousel-item {
+  height: 40rem;
+}
+	
 .img-logo-text {
 	display: none;
 }
@@ -425,5 +468,14 @@ The navbar toggle appears at this breakpoint */
 	display: none;
 }
 
+footer li {
+	display: block !important;
+}
 
+}
+
+@media (min-width: 1200px) {
+footer .logo {
+	display: inline-block;
+}
 }
