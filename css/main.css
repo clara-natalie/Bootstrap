@@ -29,6 +29,13 @@
 	color: rgba(255,255,255,.7);
 }
 
+.navbar-collapse {
+	height: 400px;
+	max-height: 400px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling:touch; // mobile safari
+}
+
  .img-logo-text {
 	left: 0px;
 	z-index: 1;
